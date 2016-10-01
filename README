@@ -1,0 +1,8 @@
+Intent:
+    Ensure a class has only one instance, and provide a global point of access to it.
+    Encapsulate "just-in-time" or "initialization on first use"
+
+The Problem:
+    Application needs one, and only one, instance of an object.
+    Additionaly, lazy initialization and blobal access are necessary
+
